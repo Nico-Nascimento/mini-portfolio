@@ -1,8 +1,4 @@
 body {
-    background-image: url(../imagens/space.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     font-family: 'VT323', monospace;
     color: white;
     font-size: 18px;
@@ -16,7 +12,7 @@ body {
 .cartao {
     background-color: #070d12;
     width: 370px;
-    border: 2px solid #e126d9;
+    border: 2px solid #047bcf;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -35,7 +31,7 @@ body {
 
 .cartao .minhas-informacoes img {
     border-radius: 50px;
-    border: 4px solid #02d08f;
+    border: 4px solid #047bcf;
 }
 
 .cartao .minhas-informacoes .nome {
@@ -100,7 +96,7 @@ body {
 }
 
 .informacoes-abas .descricao span {
-    color: #02d08f;
+    color: #047bcf;
 }
 
 .redes-sociais {
@@ -136,4 +132,12 @@ body {
 
 .github {
     background-color: #545454;
+}
+
+.bg-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -100;
+    background-size: cover;
 }
