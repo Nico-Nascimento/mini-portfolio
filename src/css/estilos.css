@@ -1,4 +1,8 @@
 body {
+    background-image: url(../imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     font-family: 'VT323', monospace;
     color: white;
     font-size: 18px;
@@ -132,12 +136,4 @@ body {
 
 .github {
     background-color: #545454;
-}
-
-.bg-video {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: -100;
-    background-size: cover;
 }
