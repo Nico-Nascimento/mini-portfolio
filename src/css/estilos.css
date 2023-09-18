@@ -31,6 +31,10 @@ body {
     width: 30px;
 }
 
+.cartao .conteudo .informacoes-abas p{
+    text-align: justify
+}
+
 .cartao .minhas-informacoes {
     padding-top: 20px;
     display: flex;
