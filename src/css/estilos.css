@@ -31,8 +31,10 @@ body {
     width: 30px;
 }
 
-.cartao .conteudo .informacoes-abas p{
-    text-align: justify
+.cartao .conteudo .informacoes-abas p {
+    text-align: justify;
+    padding-right: 5px;
+
 }
 
 .cartao .minhas-informacoes {
